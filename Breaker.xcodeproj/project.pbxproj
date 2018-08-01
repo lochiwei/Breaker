@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA0E25B2111845B009B35C4 /* SCNVector3+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E2572111845B009B35C4 /* SCNVector3+Extensions.swift */; };
+		1AA0E25C2111845B009B35C4 /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E2582111845B009B35C4 /* GameUtils.swift */; };
+		1AA0E25D2111845B009B35C4 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E2592111845B009B35C4 /* GameHelper.swift */; };
+		1AA0E25E2111845B009B35C4 /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA0E25A2111845B009B35C4 /* SCNAction+Extensions.swift */; };
 		1AAC148621117848004E320A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC148521117848004E320A /* AppDelegate.swift */; };
-		1AAC148821117848004E320A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC148721117848004E320A /* art.scnassets */; };
 		1AAC148A21117848004E320A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC148921117848004E320A /* GameViewController.swift */; };
 		1AAC148D21117848004E320A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC148B21117848004E320A /* Main.storyboard */; };
 		1AAC148F2111784D004E320A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC148E2111784D004E320A /* Assets.xcassets */; };
 		1AAC14922111784D004E320A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC14902111784D004E320A /* LaunchScreen.storyboard */; };
+		1AAC149F2111788D004E320A /* Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC149E21117884004E320A /* Extensions.framework */; };
+		1AAC14A02111788D004E320A /* Extensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAC149E21117884004E320A /* Extensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1AAC14A521117B45004E320A /* Breaker.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC14A421117B45004E320A /* Breaker.scnassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1AAC149D21117884004E320A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAC149921117883004E320A /* Extensions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1AAC139C210C9CD3004E320A;
+			remoteInfo = Extensions;
+		};
+		1AAC14A12111788D004E320A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAC149921117883004E320A /* Extensions.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AAC139B210C9CD3004E320A;
+			remoteInfo = Extensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AAC14A32111788E004E320A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1AAC14A02111788D004E320A /* Extensions.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1AA0E2572111845B009B35C4 /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		1AA0E2582111845B009B35C4 /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		1AA0E2592111845B009B35C4 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		1AA0E25A2111845B009B35C4 /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
 		1AAC148221117848004E320A /* Breaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAC148521117848004E320A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AAC148721117848004E320A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		1AAC148921117848004E320A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		1AAC148C21117848004E320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AAC148E2111784D004E320A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AAC14912111784D004E320A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AAC14932111784D004E320A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AAC149921117883004E320A /* Extensions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Extensions.xcodeproj; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Frameworks/Extensions/Extensions.xcodeproj"; sourceTree = "<group>"; };
+		1AAC14A421117B45004E320A /* Breaker.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Breaker.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +73,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AAC149F2111788D004E320A /* Extensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA0E2562111845B009B35C4 /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1AA0E2572111845B009B35C4 /* SCNVector3+Extensions.swift */,
+				1AA0E2582111845B009B35C4 /* GameUtils.swift */,
+				1AA0E2592111845B009B35C4 /* GameHelper.swift */,
+				1AA0E25A2111845B009B35C4 /* SCNAction+Extensions.swift */,
+			);
+			path = GameUtils;
+			sourceTree = "<group>";
+		};
 		1AAC147921117848004E320A = {
 			isa = PBXGroup;
 			children = (
+				1AAC149921117883004E320A /* Extensions.xcodeproj */,
 				1AAC148421117848004E320A /* Breaker */,
 				1AAC148321117848004E320A /* Products */,
 			);
@@ -57,14 +112,23 @@
 			isa = PBXGroup;
 			children = (
 				1AAC148521117848004E320A /* AppDelegate.swift */,
-				1AAC148721117848004E320A /* art.scnassets */,
 				1AAC148921117848004E320A /* GameViewController.swift */,
-				1AAC148B21117848004E320A /* Main.storyboard */,
 				1AAC148E2111784D004E320A /* Assets.xcassets */,
+				1AAC14A421117B45004E320A /* Breaker.scnassets */,
+				1AA0E2562111845B009B35C4 /* GameUtils */,
+				1AAC148B21117848004E320A /* Main.storyboard */,
 				1AAC14902111784D004E320A /* LaunchScreen.storyboard */,
 				1AAC14932111784D004E320A /* Info.plist */,
 			);
 			path = Breaker;
+			sourceTree = "<group>";
+		};
+		1AAC149A21117883004E320A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC149E21117884004E320A /* Extensions.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,10 +141,12 @@
 				1AAC147E21117848004E320A /* Sources */,
 				1AAC147F21117848004E320A /* Frameworks */,
 				1AAC148021117848004E320A /* Resources */,
+				1AAC14A32111788E004E320A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1AAC14A22111788D004E320A /* PBXTargetDependency */,
 			);
 			name = Breaker;
 			productName = Breaker;
@@ -113,6 +179,12 @@
 			mainGroup = 1AAC147921117848004E320A;
 			productRefGroup = 1AAC148321117848004E320A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1AAC149A21117883004E320A /* Products */;
+					ProjectRef = 1AAC149921117883004E320A /* Extensions.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1AAC148121117848004E320A /* Breaker */,
@@ -120,12 +192,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1AAC149E21117884004E320A /* Extensions.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Extensions.framework;
+			remoteRef = 1AAC149D21117884004E320A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1AAC148021117848004E320A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAC148821117848004E320A /* art.scnassets in Resources */,
+				1AAC14A521117B45004E320A /* Breaker.scnassets in Resources */,
 				1AAC14922111784D004E320A /* LaunchScreen.storyboard in Resources */,
 				1AAC148F2111784D004E320A /* Assets.xcassets in Resources */,
 				1AAC148D21117848004E320A /* Main.storyboard in Resources */,
@@ -139,12 +221,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA0E25D2111845B009B35C4 /* GameHelper.swift in Sources */,
 				1AAC148A21117848004E320A /* GameViewController.swift in Sources */,
+				1AA0E25E2111845B009B35C4 /* SCNAction+Extensions.swift in Sources */,
+				1AA0E25C2111845B009B35C4 /* GameUtils.swift in Sources */,
+				1AA0E25B2111845B009B35C4 /* SCNVector3+Extensions.swift in Sources */,
 				1AAC148621117848004E320A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AAC14A22111788D004E320A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Extensions;
+			targetProxy = 1AAC14A12111788D004E320A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1AAC148B21117848004E320A /* Main.storyboard */ = {
@@ -283,6 +377,7 @@
 		1AAC14972111784D004E320A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37W4K5Y2Y5;
@@ -301,6 +396,7 @@
 		1AAC14982111784D004E320A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 37W4K5Y2Y5;
